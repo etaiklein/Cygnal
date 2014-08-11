@@ -21,6 +21,7 @@
 		986ED7BC1998643000A0014A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 986ED79E1998643000A0014A /* UIKit.framework */; };
 		986ED7C41998643000A0014A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 986ED7C21998643000A0014A /* InfoPlist.strings */; };
 		986ED7C61998643000A0014A /* CygnalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 986ED7C51998643000A0014A /* CygnalTests.m */; };
+		986ED7D0199865DC00A0014A /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 986ED7CF199865DC00A0014A /* CoreTelephony.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		986ED7C11998643000A0014A /* CygnalTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CygnalTests-Info.plist"; sourceTree = "<group>"; };
 		986ED7C31998643000A0014A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		986ED7C51998643000A0014A /* CygnalTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CygnalTests.m; sourceTree = "<group>"; };
+		986ED7CF199865DC00A0014A /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				986ED7D0199865DC00A0014A /* CoreTelephony.framework in Frameworks */,
 				986ED79D1998643000A0014A /* CoreGraphics.framework in Frameworks */,
 				986ED79F1998643000A0014A /* UIKit.framework in Frameworks */,
 				986ED79B1998643000A0014A /* Foundation.framework in Frameworks */,
@@ -101,6 +104,7 @@
 		986ED7991998643000A0014A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				986ED7CF199865DC00A0014A /* CoreTelephony.framework */,
 				986ED79A1998643000A0014A /* Foundation.framework */,
 				986ED79C1998643000A0014A /* CoreGraphics.framework */,
 				986ED79E1998643000A0014A /* UIKit.framework */,

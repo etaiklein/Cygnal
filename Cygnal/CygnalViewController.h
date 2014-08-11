@@ -8,6 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CygnalViewController : UIViewController
+@interface CygnalViewController : UIViewController<UIAlertViewDelegate>{
+    IBOutlet UILabel *scoreLabel;
+    IBOutlet UILabel *timerLabel;
+    // Add the next three lines
+    NSInteger count;
+    NSInteger seconds;
+    NSTimer *timer;
+}
+
+- (IBAction)buttonPressed;
 
 @end
